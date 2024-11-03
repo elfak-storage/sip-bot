@@ -13,7 +13,7 @@ embed = Embed(
 image1 = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOmPtpzziqcXbG795QYLmYvJl6G6CcyKbKHA&s'
 
 embed.set_author(name='Studentski Informacioni Portal')
-embed.add_field(name='Nova obavestenja', value='https://sip.elfak.ni.ac.rs/')
+embed.add_field(name='Nova obaveštenja', value='https://sip.elfak.ni.ac.rs/')
 embed.set_footer(text='Elektronski Fakultet')
 embed.set_thumbnail(image1)
 
