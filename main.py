@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import re
 
 sip_url = "https://sip.elfak.ni.ac.rs/"
 
