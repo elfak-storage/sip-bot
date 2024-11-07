@@ -23,14 +23,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install selenium packages
-        run: |
-          pip3 install selenium
-
-      - name: Install chromium packages
-        run: |
-          sudo apt-get install chromium-chromedriver
-          
       - name: Execute py script
         run: python main.py
 
